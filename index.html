@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content='width=device-width, initial-scale=1.0, maximum-scale=1.0,
+    user-scalable=0'>
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css ">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@200;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <title>Poked&eacute;x</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class="nav-container">
+        <a href="/"><img class="logo" src="img/pokemon-logo.png"
+                alt="Logo"></a>
+        <a href="#" id="hamburger"><i class="fas fa-bars"></i></a>
+    </nav>
+
+    <main class="main-content">
+        <img src="img/pokeball.png" class="pokeball-img" alt=" pokeball">
+
+        <div class="poke-card-container">
+            <div class='poke-card border'>
+                <img src="" alt="" class="poke-img">
+                <div>
+                    <p class="poke-num"></p>
+                    <p class="poke-name"></p>
+                </div>
+
+                <div>
+                    <img alt="" class="type-icon-1">
+                    <img alt="" class="type-icon-2">
+                </div>
+                <p class="poke-type"></p>
+                <p class="ability"></p>
+            </div>
+
+            <!-- Backside -->
+
+            <div class='poke-card-back border-back'>
+                <img src="" alt="" class="poke-img-back">
+                <div>
+                    <p class="poke-description"></p>
+                    <p class="poke-stats">Base Stats</p>
+                </div>
+                <div class="poke-stat-row">
+                    <div class="poke-stat-column">
+                        <p class="hp-stat"></p>
+                        <p class="speed-stat"></p>
+                    </div>
+                    <div class="poke-stat-column">
+                        <p class="atk-stat"></p>
+                        <p class="def-stat"></p>
+                    </div>
+                    <div class="poke-stat-column">
+                        <p class="spatk-stat"></p>
+                        <p class="spdef-stat"></p>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <button class="flipBtn">Flip Card</button>
+
+        <form action="#" class="poke-form">
+            <label for="poke-search"></label>
+            <input class="poke-search" type="text" placeholder="Pok&eacute; Search">
+            <img src="img/pokeball-search.png" class="poke-button" alt="">
+        </form>
+        <div class="instruction">
+            <p class="body-instructions">Choose a Pokémon from your favorite generation.</p>
+
+        </div>
+
+        <div class="generation-container">
+            <div class="g1-g4">
+                <div class="generation-column">
+                    <label for="poke-dropdownG1" class="drop-label">Gen 1:</label>
+                    <select class="drop-style poke-dropdownG1"></select>
+                </div>
+                <div class="generation-column">
+                    <label for="poke-dropdownG2" class="drop-label">Gen 2:</label>
+                    <select class="drop-style poke-dropdownG2"></select>
+                </div>
+
+                <div class="generation-column">
+                    <label for="poke-dropdownG3" class="drop-label">Gen 3:</label>
+                    <select class="drop-style poke-dropdownG3"></select>
+                </div>
+                <div class="generation-column">
+                    <label for="poke-dropdownG4" class="drop-label">Gen 4:</label>
+                    <select class="drop-style poke-dropdownG4"></select>
+                </div>
+            </div>
+            <div class="g4-g8">
+                <div class="generation-column">
+                    <label for="poke-dropdownG5" class="drop-label">Gen 5:</label>
+                    <select class="drop-style poke-dropdownG5"></select>
+                </div>
+                <div class="generation-column">
+                    <label for="poke-dropdownG6" class="drop-label">Gen 6:</label>
+                    <select class="drop-style poke-dropdownG6"></select>
+                </div>
+                <div class="generation-column">
+                    <label for="poke-dropdownG7" class="drop-label">Gen 7:</label>
+                    <select class="drop-style poke-dropdownG7"></select>
+                </div>
+                <div class="generation-column">
+                    <label for="poke-dropdownG8" class="drop-label">Gen 8:</label>
+                    <select class="drop-style poke-dropdownG8"></select>
+                </div>
+            </div>
+
+
+        </div>
+
+
+    </main>
+    <script type="module" src="js/script.js"></script>
+</body>
+<br> <br>
+<footer>
+    <p>SKoley 2022 Made with: <a href="https://pokeapi.co/">PokeAPI</a></p>
+  </footer>
+
+</html>
