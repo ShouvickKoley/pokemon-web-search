@@ -4,12 +4,26 @@ Search for your favorite Pokemon
 Using Vanilla JS and the Pokemon API to create a web Pokedex
 
 
-Default view
-<img width="1650" alt="image" src="https://user-images.githubusercontent.com/41761189/198751786-21dda06e-9645-425b-928a-c0d98ecea483.png">
+Homepage view
 
-Searching for Pokemon from dropdown
-<img width="1401" alt="image" src="https://user-images.githubusercontent.com/41761189/198751924-bf202cee-d554-4498-b097-15785febfec4.png">
+<img width="1609" alt="image" src="https://user-images.githubusercontent.com/41761189/198773409-474bb165-a88f-418b-8aa7-91ff13b9cefd.png">
 
-Pokemon front and back card displayed
-<img width="1353" alt="image" src="https://user-images.githubusercontent.com/41761189/198751836-a704aa78-193a-4293-8fbc-c330fe7e8554.png">
+
+
+Searching for Pokémon from Searchbar
+
+<img width="1459" alt="image" src="https://user-images.githubusercontent.com/41761189/198774057-f9c1e503-a3ef-4935-807c-2038e6627a1d.png">
+
+
+
+Searching for Pokémon from dropdown
+
+<img width="1577" alt="image" src="https://user-images.githubusercontent.com/41761189/198774900-2f4f26a1-fb1f-4d3c-bc60-7ff35942d8aa.png">
+
+
+
+Pokémon front and back card displayed
+
+<img width="1399" alt="image" src="https://user-images.githubusercontent.com/41761189/198775222-c6685b11-e887-4516-b0e8-8ac734a8f42f.png">
+
 
