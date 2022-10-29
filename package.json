@@ -4,7 +4,7 @@
   "description": "Pokemon web search app",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node ./js/script.js"
   },
   "repository": {
     "type": "git",
