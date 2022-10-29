@@ -15,7 +15,7 @@ import {fillInZero} from './utils.js'
 
 
 const navContainer = document.querySelector('.nav-container');
-const hamburger = document.querySelector('#hamburger');
+// const hamburger = document.querySelector('#hamburger');
 const pokeSearch = document.querySelector('.poke-search')
 const pokeButton = document.querySelector('.poke-button')
 
@@ -77,14 +77,14 @@ const flipBtn = document.querySelector('.flipBtn');
 // })
 
 
-hamburger.addEventListener('click', ()=>{
-    if(navContainer.className === "nav-container"){
-        navContainer.className += " response";
-    } else {
-        navContainer.className = 'nav-container';
-    }
+// hamburger.addEventListener('click', ()=>{
+//     if(navContainer.className === "nav-container"){
+//         navContainer.className += " response";
+//     } else {
+//         navContainer.className = 'nav-container';
+//     }
 
-})
+// })
 
 
 //  ASYNC AND AWAIT and we need to also have a catch for failed pulls

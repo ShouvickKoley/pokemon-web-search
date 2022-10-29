@@ -42,9 +42,9 @@
     font-size: 1.5em;
   }
 
-  #hamburger {
+  /* #hamburger {
     display: none;
-  }
+  } */
 
   .logo {
     width: 300px;
@@ -372,11 +372,27 @@
       display: block;
     }
 
-    #hamburger {
+    /* #hamburger {
       display: block;
       position: absolute;
       top: 25px;
       right: 25px;
+    } */
+
+    .poke-search {
+      align-items: center;
+      column-gap: 1em;
+    }
+
+    .poke-button {
+      align-items: center;
+      column-gap: 1em;
+    }
+
+    .pokeball-img {
+      width: 20em;
+      position: absolute;
+      top: 20em;
     }
 
     .poke-card-container {
@@ -452,6 +468,8 @@
       margin-top: 0;
       width: 150px;
     }
+
+
   }
 
   @media only screen and (max-width: 650px) {
@@ -461,14 +479,27 @@
       justify-content: flex-start;
     }
 
+    .poke-search {
+      align-items: center;
+      column-gap: 1em;
+    }
+
+    .poke-button {
+      align-items: center;
+      column-gap: 1em;
+    }
+
+
     .pokeball-img {
-      width: 20em;
+      width: 22em;
       position: absolute;
-      top: 6em;
+      top: 15em;
     }
 
     .logo {
-      width: 5em;
+      width: 8em;
+      align-items: center;
+      margin-left: 2em;
     }
 
     .poke-card-container {
@@ -516,6 +547,15 @@
     .poke-card-back {
       display: none;
       min-height: 22em;
+    }
+
+    .body-instructions {
+      display: flex;
+      text-align: center;
+      width: 85%;
+      margin-left: 1.25em;
+      padding: .5em;
+      font-size: 1.1em;
     }
 
     .generation-container {
