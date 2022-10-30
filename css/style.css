@@ -84,6 +84,7 @@
     column-gap: 1em;
     font-family: "Urbanist", Helvetica, sans-serif;
     color: #F8FAF9;
+    text-shadow: 1.5px 1.5px #333434;
   }
 
   .poke-form {
@@ -132,12 +133,14 @@
     font-size: 1.4em;
     letter-spacing: -1px;
     color: #F8FAF9;
+    text-shadow: 1.5px 1.5px #333434;
   }
 
   .poke-num {
     display: inline-block;
     font-size: 1.4em;
     color: #F8FAF9;
+    text-shadow: 1.5px 1.5px #333434;
   }
 
   .poke-img,
@@ -159,12 +162,14 @@
     text-transform: capitalize;
     margin-top: 1.4em;
     font-size: 1.1em;
+    text-shadow: 1.5px 1.5px #333434;
   }
   .poke-type {
     text-transform: capitalize;
     margin-top: 0.5em;
     font-size: 1.2em;
     color: #F8FAF9;
+    text-shadow: 1.5px 1.5px #333434;
   }
 
   .poke-card,
@@ -183,6 +188,7 @@
   .poke-description {
     line-height: 1.2;
     color: #F8FAF9;
+    text-shadow: 1.5px 1.5px #333434;
   }
 
   .poke-stats {
@@ -403,16 +409,19 @@
     .poke-card {
       row-gap: 0;
       color: #F8FAF9;
+      text-shadow: 1.5px 1.5px #333434;
     }
 
     .poke-num {
       font-size: 1em;
       color: #F8FAF9;
+      text-shadow: 1.5px 1.5px #333434;
     }
 
     .poke-name {
       font-size: 1em;
       color: #F8FAF9;
+      text-shadow: 1.5px 1.5px #333434;
     }
 
     .poke-form {
@@ -425,11 +434,13 @@
 
     .poke-type {
       color: #F8FAF9;
+      text-shadow: 1.5px 1.5px #333434;
     }
 
     .ability {
       font-size: 0.8em;
       color: #F8FAF9;
+      text-shadow: 1.5px 1.5px #333434;
     }
 
     .border {
@@ -461,6 +472,7 @@
     .poke-description {
       font-size: 0.8em;
       color: #F8FAF9;
+      text-shadow: 1.5px 1.5px #333434;
     }
 
     .poke-img,
@@ -514,11 +526,13 @@
     .poke-num {
       font-size: 1em;
       color: #F8FAF9;
+      text-shadow: 1.5px 1.5px #333434;
     }
 
     .poke-name {
       font-size: 1em;
       color: #F8FAF9;
+      text-shadow: 1.5px 1.5px #333434;
     }
 
     .poke-form {
@@ -531,11 +545,13 @@
 
     .poke-type {
       color: #F8FAF9;
+      text-shadow: 1.5px 1.5px #333434;
     }
 
     .ability {
       font-size: 0.8em;
       color: #F8FAF9;
+      text-shadow: 1.5px 1.5px #333434;
     }
 
     .border {
